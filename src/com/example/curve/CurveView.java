@@ -1,10 +1,3 @@
-/*
- * FileName:	curveView.java
- * Copyright:	ìÅ²Ê»¥¶¯ÍøÂç¿Æ¼¼ÓÐÏÞ¹«Ë¾
- * Author: 		Kyson
- * Description:	<ÎÄ¼þÃèÊö>
- * History:		2014-3-19 1.00 ³õÊ¼°æ±¾
- */
 package com.example.curve;
 
 import java.util.LinkedList;
@@ -21,17 +14,17 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * <¹¦ÄÜ¼òÊö> </Br> <¹¦ÄÜÏêÏ¸ÃèÊö> </Br>
+ * <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½> </Br> <ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½> </Br>
  * 
  * @author Kyson
  */
 public class CurveView extends View {
     /**
-     * »­±Ê
+     * ï¿½ï¿½ï¿½ï¿½
      */
     private Paint mPaint;
     /**
-     * »æÖÆµÄÇúÏßµã
+     * ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ßµï¿½
      */
     private LinkedList<Point> mPoints;
     private float startX = 0;
@@ -56,7 +49,7 @@ public class CurveView extends View {
     }
 
     /**
-     * ³õÊ¼»¯¹¤×÷£¬¿É×÷Îª½Ó¿ÚÏòÍâÌá¹©£¬ÕâÀïÊ¡È¥ <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Ó¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡È¥ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      */
     private void initView() {
         mPaint = new Paint();
@@ -77,7 +70,7 @@ public class CurveView extends View {
     }
 
     /**
-     * ½«µãµÄÁÐ±í×ª»»Îª×ø±êÊý×é <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      * 
      * @return
      */
@@ -87,7 +80,7 @@ public class CurveView extends View {
 
         for (int i = 0; i < size; i++) {
             int pointIndex = (i + 2) / 4;
-            // ÆæÊý
+            // ï¿½ï¿½ï¿½ï¿½
             if (i % 2 == 1) {
                 pts[i] = mPoints.get(pointIndex).y;
             } else {
@@ -105,14 +98,14 @@ public class CurveView extends View {
     }
 
     /**
-     * @return ·µ»Ø mPoints
+     * @return ï¿½ï¿½ï¿½ï¿½ mPoints
      */
     public List<Point> getPoints() {
         return mPoints;
     }
 
     /**
-     * @param ¶ÔmPoints½øÐÐ¸³Öµ
+     * @param ï¿½ï¿½mPointsï¿½ï¿½ï¿½Ð¸ï¿½Öµ
      */
     public void setPoints(LinkedList<Point> mPoints) {
         this.mPoints = mPoints;
@@ -120,7 +113,7 @@ public class CurveView extends View {
     }
 
     /**
-     * Ìí¼ÓÒ»¸öµã <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      * 
      * @param point
      */
@@ -133,7 +126,7 @@ public class CurveView extends View {
     }
 
     /**
-     * Ìí¼ÓÒ»¸ö¿É¼ûµÄµã£¨¼´ÈÃËü¹ö¶¯µ½ÆÁÄ»×îÓÒ±ß£© <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½É¼ï¿½ï¿½Äµã£¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½Ò±ß£ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      * 
      * @param point
      */
@@ -143,7 +136,7 @@ public class CurveView extends View {
     }
 
     /**
-     * ¹ö¶¯µãµ½ÆÁÄ»ÓÒ±ß <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ãµ½ï¿½ï¿½Ä»ï¿½Ò±ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      * 
      * @param point
      */
@@ -152,7 +145,7 @@ public class CurveView extends View {
     }
 
     /**
-     * ÇåÆÁ <¹¦ÄÜ¼òÊö>
+     * ï¿½ï¿½ï¿½ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      */
     public void clearScreen() {
         if (this.mPoints == null || this.mPoints.isEmpty()) {
@@ -181,14 +174,14 @@ public class CurveView extends View {
         case MotionEvent.ACTION_UP:
             int sx = getScrollX();
             int sy = getScrollY();
-            // ×Ü³¤¶È
+            // ï¿½Ü³ï¿½ï¿½ï¿½
             int mWidth = getTotalWidth();
-            // ¿ÉÊÓ³¤¶È
+            // ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½
             int vWidth = getCurveViewWidth();
             if (mWidth < vWidth) {
                 scrollTo(mWidth - vWidth, 0);
             }
-            // Ê×ÏÈÊÇsx<0
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sx<0
             else if (sx < 0) {
                 if (sy < -10 || sy > 10) {
                     scrollBy(-sx, -sy);
@@ -196,7 +189,7 @@ public class CurveView extends View {
                     scrollBy(-sx, 0);
                 }
             }
-            // È»ºósxÓÒ±ß³¬³ö
+            // È»ï¿½ï¿½sxï¿½Ò±ß³ï¿½ï¿½ï¿½
             else if (sx > (mWidth - vWidth)) {
                 if (sy < -10 || sy > 10) {
                     scrollBy(mWidth - sx - vWidth, -sy);
@@ -204,7 +197,7 @@ public class CurveView extends View {
                     scrollBy(mWidth - sx - vWidth, 0);
                 }
             }
-            // ×îºósxÔÚ·¶Î§Àï
+            // ï¿½ï¿½ï¿½ï¿½sxï¿½Ú·ï¿½Î§ï¿½ï¿½
             else {
                 if (sy < -10 || sy > 10) {
                     scrollBy(0, -sy);
@@ -216,7 +209,7 @@ public class CurveView extends View {
     }
 
     /**
-     * È¡µÃ×Ü³¤¶È <¹¦ÄÜ¼òÊö>
+     * È¡ï¿½ï¿½ï¿½Ü³ï¿½ï¿½ï¿½ <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½>
      * 
      * @return
      */
