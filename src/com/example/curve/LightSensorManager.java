@@ -1,10 +1,3 @@
-/*
- * FileName:	LightSensorManager.java
- * Copyright:	ìÅ²Ê»¥¶¯ÍøÂç¿Æ¼¼ÓÐÏÞ¹«Ë¾
- * Author: 		Kyson
- * Description:	<ÎÄ¼þÃèÊö>
- * History:		2014-3-21 1.00 ³õÊ¼°æ±¾
- */
 package com.example.curve;
 
 import android.content.Context;
@@ -17,7 +10,7 @@ import android.os.Message;
 import android.util.Log;
 
 /**
- * <¹¦ÄÜ¼òÊö> </Br> <¹¦ÄÜÏêÏ¸ÃèÊö> </Br>
+ * <ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½> </Br> <ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½> </Br>
  * 
  * @author Kyson
  */
