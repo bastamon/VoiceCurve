@@ -1,4 +1,4 @@
-package com.example.curve;
+package com.tt.voicecurve;
 
 import android.content.Context;
 import android.hardware.Sensor;

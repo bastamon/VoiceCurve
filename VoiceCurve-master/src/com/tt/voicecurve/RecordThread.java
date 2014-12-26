@@ -1,4 +1,4 @@
-package com.example.curve;
+package com.tt.voicecurve;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;

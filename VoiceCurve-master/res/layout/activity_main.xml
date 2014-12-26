@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.example.curve.CurveView
+    <com.tt.voicecurve.CurveView
         android:id="@+id/curve"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"

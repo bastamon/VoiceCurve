@@ -1,4 +1,4 @@
-package com.example.curve;
+package com.tt.voicecurve;
 
 import java.util.LinkedList;
 import java.util.List;
