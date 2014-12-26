@@ -1,6 +1,6 @@
 package com.tt.voicecurve;
 
-import com.example.curve.R;
+import com.tt.voicecurve.R;
 
 import android.app.Activity;
 import android.graphics.Point;
