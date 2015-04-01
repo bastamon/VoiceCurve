@@ -46,7 +46,7 @@
 
 ##更多
 
-- [我的个人博客](http://www.hizhaohui.cn)
+- [我的个人博客](http://www.hikyson.cn)
 
 - [我的开源项目](http://git.oschina.net/cocobaby)
 
@@ -59,6 +59,3 @@ Copyright (c) 2014 Kyson
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 [1]:http://kkwordpress-wordpress.stor.sinaapp.com/uploads/2014/12/tt_voice_curve_showcase.gif
-
-
-
